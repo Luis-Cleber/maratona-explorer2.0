@@ -8,16 +8,44 @@ a {
     text-decoration: none;
  }
 
+ html {
+          /*Variaveis*/
+    --bg-color: #98BBF8 ;
+    --primary-color:#FFFFFFFF ;
+    --secund-color: #0000009c ;
+    --text-color: #00082f;  
+    --hover-color: #0E33C7C5 ;
+    --gradient-colors: #FF3CAC 0%, #784BA0 40%, #2B86C5 77% ;
+ }
+
+ body.dark {
+    --bg-color:#00082f ;
+    --text-color:#FFFFFFFF ;
+    --primary-color: #0000009c;
+    --secund-color:#FFFFFFFF;
+    --hover-color: #784BA0;
+ }
+
+ body.pink {
+    --bg-color: #d423c6;
+    --text-color: rgb(110, 14, 81);
+    --hover-color: #b70ec7d5;
+    --gradient-colors: #2B86C5 0% , #784BA0 40%, #FF3CAC 77%;
+ }
+
 body {
-    max-height: 650px;  
-    background-color: #98bbf8;
+    background-color: var(--bg-color);
     font-family: 'Roboto', sans-serif;
 }
 
 .container {
     text-align: center;
-    width: 300px;
+    max-width: 350px;
     margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15em var(--primary-color), 0 0 1em var(--secund-color);
+    
 }
 
 img {
@@ -29,12 +57,12 @@ img.avatar {
     width:120px;
     height: 120px;
     padding: 3.7;
-    border: #0e33c7c5 solid 4px;
+    border:var(--hover-color) solid 4px;
 }
 
 h1 {
     font-size: 32px;
-    color:rgb(38, 39, 39);
+    color: var(--text-color);
     margin-top: 24px;
     margin-bottom: 8px;
 }
@@ -42,7 +70,7 @@ h1 {
 p {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
-    color: rgb(54, 53, 53);
+    color: var(--text-color);
     opacity: 0.8;
     font-size: 18px;
 }
@@ -58,9 +86,8 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FF3CAC;
-    background-image: linear-gradient(315deg, #FF3CAC 0%, #784BA0 40%, #2B86C5 77%);
-    color:white;
+    background-image: linear-gradient(315deg, var(--gradient-colors));
+    color:var(--primary-color);
     text-transform: uppercase;
     font-size: 14px;
 
@@ -71,21 +98,21 @@ ul li a {
 ul li a:hover {
     transform: scale(1.1);
     transition: all 0.5s;
-    box-shadow: inset 0 0 0 5px  #0e33c7c5 ;
+    box-shadow: inset 0 0 0 5px  var(--hover-color) ;
 }
 
 footer {
     font-weight: 500;
     font-size: 14px;
-    color:#00082f;
+    color:var(--hover-color);
     opacity: 0.6;
     transition: opacity 400ms;
 }
 
 footer:hover {
-    opacity: -1;
+    opacity: 1;
 }
 
 footer a {
-    color:#00082f;
+    color:var(--text-color);
 }
