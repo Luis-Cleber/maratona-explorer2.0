@@ -17,7 +17,7 @@ O objetivo foi criar um **hub de links estilo Linktree**, reunindo de forma simp
 
 ## 🖼️ Preview
 
-> *(Adicione aqui uma captura de tela do site — ex.: `![preview](./assets/preview.png)`)*
+[preview](./assets/preview.png)`)
 
 ---
 
