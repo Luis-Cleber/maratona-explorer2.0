@@ -17,7 +17,7 @@ O objetivo foi criar um **hub de links estilo Linktree**, reunindo de forma simp
 
 ## 🖼️ Preview
 
-[preview](./assets/preview.png)`)
+![preview](./assets/preview.png)
 
 ---
 
@@ -75,9 +75,10 @@ O objetivo foi criar um **hub de links estilo Linktree**, reunindo de forma simp
 
 Feito com ❤️ por Luis Cleber
 
-- GitHub
+ 👉[GitHub](https://github.com/Luis-Cleber)
 
-- LinkedIn
+ 👉[LinkedIn](https://www.linkedin.com/in/luis-cleber/)
+ 
 ---
 📜 Licença
 
