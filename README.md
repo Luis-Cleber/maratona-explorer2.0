@@ -81,4 +81,4 @@ Feito com ❤️ por Luis Cleber
 ---
 📜 Licença
 
- Este projeto está licenciado sob a [MIT License]()
+ Este projeto está licenciado sob a [MIT License](https://github.com/Luis-Cleber/maratona-explorer2.0/blob/main/LICENSE)
